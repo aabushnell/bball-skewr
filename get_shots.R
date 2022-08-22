@@ -1,4 +1,4 @@
-fetch_shots_by_player_id_and_season = function(player_id, season, season_type = "Regular Season") {
+get_shots_by_player_id_and_season = function(player_id, season, season_type = "Regular Season") {
   req(player_id, season, season_type)
 
   request = GET(
@@ -81,7 +81,7 @@ fetch_shots_by_player_id_and_season = function(player_id, season, season_type = 
   return(list(player = shots, league_averages = league_averages))
 }
 
-default_shots = fetch_shots_by_player_id_and_season(
+default_shots = get_shots_by_player_id_and_season(
   default_player$person_id,
   default_season,
   default_season_type
