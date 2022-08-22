@@ -1,5 +1,5 @@
 # bball-skewr
-Shiny App Showing Skewness in NBA Shooting
+R Shiny App Showing Skewness in NBA Shooting
 
 Use the following lines of code (with R installed) to run the app locally:
 
