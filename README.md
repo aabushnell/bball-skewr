@@ -34,4 +34,4 @@ The large positive skewness would seem to contribute to the idea that some chang
 
 ## Future
 
-This app is currently a relatively simple visualization tool for examining different players shot distributions and skewness, however, further work investigating the statistical potential of skewness to predict shooting in later seasons could further shed light on the significance of this concept.
+This app is currently a relatively simple visualization tool for examining different players shot distributions and skewness, however, further work investigating the statistical potential of skewness to predict shooting in later seasons could further shed light on the significance of this concept. Modeling using time-series framework or Markov model could reveal broader results.
