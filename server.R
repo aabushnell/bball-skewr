@@ -307,7 +307,7 @@ shinyServer(function(input, output, session){
       paste0(round(density_mode(gamelog(), shot_name()) * 100, 
                    digits = 1), "%"), 
       paste("Mode", input$shot_type, "Shooting"), 
-      icon = icon("align-center"),
+      icon = icon("mountain"),
       color = "purple"
     )
   })
@@ -329,7 +329,7 @@ shinyServer(function(input, output, session){
       paste0(round(third_moment(gamelog(), shot_name()) * 100, 
                    digits = 1), "%"), 
       paste("Skewness", input$shot_type, "Shooting"), 
-      icon = icon("chart-area"),
+      icon = icon("arrows-left-right"),
       color = "orange"
     )
   })
