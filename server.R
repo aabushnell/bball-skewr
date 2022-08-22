@@ -121,8 +121,14 @@ shinyServer(function(input, output, session){
     ggplot(career_gamelogs(), aes(x=season, y=mean, group=1)) + 
       ylim(0, 1) +
       geom_line(size = 2) +
+      geom_point(aes(x=season, y=mean+(skew/2)), color="#ef8c3b", size = 2) +
+      geom_segment(aes(x=season,
+                       y=mean,
+                       xend=season,
+                       yend=mean+(skew/2)), 
+                   arrow=arrow(length=unit(0.015, "npc")),
+                   size=1, color="#ef8c3b") +
       geom_point(size = 2) +
-      geom_point(aes(x=season, y=mean+(skew/2)), color="orange", size = 2) +
       theme_solarized()
   })
   
