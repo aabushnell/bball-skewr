@@ -1,11 +1,9 @@
 library(shiny)
 library(tidyverse)
-library(hexbin)
 library(httr)
 library(jsonlite)
 library(moments)
 library(ggthemes)
-library(DT)
 library(shinydashboard)
 
 source("helpers.R")
