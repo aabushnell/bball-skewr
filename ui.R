@@ -36,7 +36,7 @@ shinyUI(
         tags$script(src = "https://cdnjs.cloudflare.com/ajax/libs/html2canvas/0.4.1/html2canvas.min.js"),
         tags$script(src = "https://cdnjs.cloudflare.com/ajax/libs/bootstrap-select/1.10.0/js/bootstrap-select.min.js"),
         tags$script(src = "shared/selectize/js/selectize.min.js"),
-        tags$script(src = "ballr.js")
+        tags$script(src = "skewr.js")
       ),
       tabItems(
         # First tab content
