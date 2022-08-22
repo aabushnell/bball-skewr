@@ -14,7 +14,7 @@ runGitHub("bball-skewr", "aabushnell")
 
 The app currently consists of two pages accessible through the menu on the left. The first tab allows you to select an NBA player, season, date-range (optional), and shot-type (2PT FGs, 3PT FGs, etc.) and displays a shot chart and a histogram on the left. The histogram shows the distribution of per-game shooting percentages for the chosen shot type, player, and season. It also shows several measures of central tendacy -- i.e. the mean, median, and (density) mode -- the standard deviation, and a measure of skewness calculated from the third standardized moment (https://en.wikipedia.org/wiki/Standardized_moment).
 
-The second tab allows you to look at the selected players per-season shooting percentages for their entire career with the per-season skewness overlayed on the trendline as orange arrows.
+The second tab allows you to look at the selected players per-season shooting percentages for their entire career with the per-season skewness overlayed on the trendline as orange arrows. Note that due to the large volume of data that must be loaded from the NBA API and processed this page may take a few seconds to load.
 
 ## Theory
 
