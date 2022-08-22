@@ -141,7 +141,7 @@ shinyServer(function(input, output, session){
     if (use_default_shots) {
       default_shots
     } else {
-      fetch_shots_by_player_id_and_season(
+      get_shots_by_player_id_and_season(
         current_player()$person_id,
         current_season(),
         current_season_type()
